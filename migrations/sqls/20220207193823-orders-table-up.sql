@@ -1,0 +1,1 @@
+CREATE TABLE orders (id SERIAL PRIMARY KEY NOT NULL, status VARCHAR DEFAULT 'Active', totalprice INT DEFAULT 0, person_id BIGINT REFERENCES persons(id) ON DELETE SET NULL);

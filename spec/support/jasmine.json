@@ -1,0 +1,17 @@
+{
+  "spec_dir": "dist/tests",
+  "spec_files": [
+    "models/person.spec.js",
+    "models/product.spec.js",
+    "models/order.spec.js",
+    "models/order_products.spec.js",
+    "routes/person.routes.spec.js",
+    "routes/product.routes.spec.js",
+    "routes/order.routes.spec.js",
+    "routes/order_products.routes.spec.js",
+    "**/*[sS]pec.js"
+  ],
+  "helpers": ["helpers/**/*.js"],
+  "stopSpecOnExpectationFailure": false,
+  "random": false
+}
